@@ -9,11 +9,12 @@
 /* Begin PBXBuildFile section */
 		BA491EBC1D5203C600206BC5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA491EBB1D5203C600206BC5 /* AppDelegate.swift */; };
 		BA491EBE1D5203C600206BC5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA491EBD1D5203C600206BC5 /* ViewController.swift */; };
-		BA491EC11D5203C600206BC5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA491EBF1D5203C600206BC5 /* Main.storyboard */; };
 		BA491EC31D5203C600206BC5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA491EC21D5203C600206BC5 /* Assets.xcassets */; };
 		BA491EC61D5203C600206BC5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA491EC41D5203C600206BC5 /* LaunchScreen.storyboard */; };
 		BA491ED11D5203C600206BC5 /* GMPickerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA491ED01D5203C600206BC5 /* GMPickerTests.swift */; };
 		BA491EDC1D5203C600206BC5 /* GMPickerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA491EDB1D5203C600206BC5 /* GMPickerUITests.swift */; };
+		BA491EEA1D52040C00206BC5 /* GMPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA491EE91D52040C00206BC5 /* GMPicker.swift */; };
+		BA491EEC1D5206BC00206BC5 /* GMDatePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA491EEB1D5206BC00206BC5 /* GMDatePicker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +38,6 @@
 		BA491EB81D5203C600206BC5 /* GMPicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GMPicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA491EBB1D5203C600206BC5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BA491EBD1D5203C600206BC5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		BA491EC01D5203C600206BC5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BA491EC21D5203C600206BC5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BA491EC51D5203C600206BC5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BA491EC71D5203C600206BC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -47,6 +47,8 @@
 		BA491ED71D5203C600206BC5 /* GMPickerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GMPickerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA491EDB1D5203C600206BC5 /* GMPickerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GMPickerUITests.swift; sourceTree = "<group>"; };
 		BA491EDD1D5203C600206BC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA491EE91D52040C00206BC5 /* GMPicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GMPicker.swift; sourceTree = "<group>"; };
+		BA491EEB1D5206BC00206BC5 /* GMDatePicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GMDatePicker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,7 +101,8 @@
 			children = (
 				BA491EBB1D5203C600206BC5 /* AppDelegate.swift */,
 				BA491EBD1D5203C600206BC5 /* ViewController.swift */,
-				BA491EBF1D5203C600206BC5 /* Main.storyboard */,
+				BA491EEB1D5206BC00206BC5 /* GMDatePicker.swift */,
+				BA491EE91D52040C00206BC5 /* GMPicker.swift */,
 				BA491EC21D5203C600206BC5 /* Assets.xcassets */,
 				BA491EC41D5203C600206BC5 /* LaunchScreen.storyboard */,
 				BA491EC71D5203C600206BC5 /* Info.plist */,
@@ -231,7 +234,6 @@
 			files = (
 				BA491EC61D5203C600206BC5 /* LaunchScreen.storyboard in Resources */,
 				BA491EC31D5203C600206BC5 /* Assets.xcassets in Resources */,
-				BA491EC11D5203C600206BC5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,6 +259,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				BA491EBE1D5203C600206BC5 /* ViewController.swift in Sources */,
+				BA491EEC1D5206BC00206BC5 /* GMDatePicker.swift in Sources */,
+				BA491EEA1D52040C00206BC5 /* GMPicker.swift in Sources */,
 				BA491EBC1D5203C600206BC5 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -293,14 +297,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		BA491EBF1D5203C600206BC5 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BA491EC01D5203C600206BC5 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		BA491EC41D5203C600206BC5 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
