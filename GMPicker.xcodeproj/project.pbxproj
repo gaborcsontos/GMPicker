@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BA491EBC1D5203C600206BC5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA491EBB1D5203C600206BC5 /* AppDelegate.swift */; };
+		BA491EBE1D5203C600206BC5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA491EBD1D5203C600206BC5 /* ViewController.swift */; };
+		BA491EC11D5203C600206BC5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA491EBF1D5203C600206BC5 /* Main.storyboard */; };
+		BA491EC31D5203C600206BC5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA491EC21D5203C600206BC5 /* Assets.xcassets */; };
+		BA491EC61D5203C600206BC5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA491EC41D5203C600206BC5 /* LaunchScreen.storyboard */; };
+		BA491ED11D5203C600206BC5 /* GMPickerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA491ED01D5203C600206BC5 /* GMPickerTests.swift */; };
+		BA491EDC1D5203C600206BC5 /* GMPickerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA491EDB1D5203C600206BC5 /* GMPickerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BA491ECD1D5203C600206BC5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA491EB01D5203C600206BC5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA491EB71D5203C600206BC5;
+			remoteInfo = GMPicker;
+		};
+		BA491ED81D5203C600206BC5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA491EB01D5203C600206BC5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA491EB71D5203C600206BC5;
+			remoteInfo = GMPicker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BA491EB81D5203C600206BC5 /* GMPicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GMPicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA491EBB1D5203C600206BC5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BA491EBD1D5203C600206BC5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BA491EC01D5203C600206BC5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BA491EC21D5203C600206BC5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BA491EC51D5203C600206BC5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BA491EC71D5203C600206BC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA491ECC1D5203C600206BC5 /* GMPickerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GMPickerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA491ED01D5203C600206BC5 /* GMPickerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GMPickerTests.swift; sourceTree = "<group>"; };
+		BA491ED21D5203C600206BC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA491ED71D5203C600206BC5 /* GMPickerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GMPickerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA491EDB1D5203C600206BC5 /* GMPickerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GMPickerUITests.swift; sourceTree = "<group>"; };
+		BA491EDD1D5203C600206BC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BA491EB51D5203C600206BC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA491EC91D5203C600206BC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA491ED41D5203C600206BC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BA491EAF1D5203C600206BC5 = {
+			isa = PBXGroup;
+			children = (
+				BA491EBA1D5203C600206BC5 /* GMPicker */,
+				BA491ECF1D5203C600206BC5 /* GMPickerTests */,
+				BA491EDA1D5203C600206BC5 /* GMPickerUITests */,
+				BA491EB91D5203C600206BC5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BA491EB91D5203C600206BC5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BA491EB81D5203C600206BC5 /* GMPicker.app */,
+				BA491ECC1D5203C600206BC5 /* GMPickerTests.xctest */,
+				BA491ED71D5203C600206BC5 /* GMPickerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BA491EBA1D5203C600206BC5 /* GMPicker */ = {
+			isa = PBXGroup;
+			children = (
+				BA491EBB1D5203C600206BC5 /* AppDelegate.swift */,
+				BA491EBD1D5203C600206BC5 /* ViewController.swift */,
+				BA491EBF1D5203C600206BC5 /* Main.storyboard */,
+				BA491EC21D5203C600206BC5 /* Assets.xcassets */,
+				BA491EC41D5203C600206BC5 /* LaunchScreen.storyboard */,
+				BA491EC71D5203C600206BC5 /* Info.plist */,
+			);
+			path = GMPicker;
+			sourceTree = "<group>";
+		};
+		BA491ECF1D5203C600206BC5 /* GMPickerTests */ = {
+			isa = PBXGroup;
+			children = (
+				BA491ED01D5203C600206BC5 /* GMPickerTests.swift */,
+				BA491ED21D5203C600206BC5 /* Info.plist */,
+			);
+			path = GMPickerTests;
+			sourceTree = "<group>";
+		};
+		BA491EDA1D5203C600206BC5 /* GMPickerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BA491EDB1D5203C600206BC5 /* GMPickerUITests.swift */,
+				BA491EDD1D5203C600206BC5 /* Info.plist */,
+			);
+			path = GMPickerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BA491EB71D5203C600206BC5 /* GMPicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA491EE01D5203C600206BC5 /* Build configuration list for PBXNativeTarget "GMPicker" */;
+			buildPhases = (
+				BA491EB41D5203C600206BC5 /* Sources */,
+				BA491EB51D5203C600206BC5 /* Frameworks */,
+				BA491EB61D5203C600206BC5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GMPicker;
+			productName = GMPicker;
+			productReference = BA491EB81D5203C600206BC5 /* GMPicker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BA491ECB1D5203C600206BC5 /* GMPickerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA491EE31D5203C600206BC5 /* Build configuration list for PBXNativeTarget "GMPickerTests" */;
+			buildPhases = (
+				BA491EC81D5203C600206BC5 /* Sources */,
+				BA491EC91D5203C600206BC5 /* Frameworks */,
+				BA491ECA1D5203C600206BC5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BA491ECE1D5203C600206BC5 /* PBXTargetDependency */,
+			);
+			name = GMPickerTests;
+			productName = GMPickerTests;
+			productReference = BA491ECC1D5203C600206BC5 /* GMPickerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BA491ED61D5203C600206BC5 /* GMPickerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA491EE61D5203C600206BC5 /* Build configuration list for PBXNativeTarget "GMPickerUITests" */;
+			buildPhases = (
+				BA491ED31D5203C600206BC5 /* Sources */,
+				BA491ED41D5203C600206BC5 /* Frameworks */,
+				BA491ED51D5203C600206BC5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BA491ED91D5203C600206BC5 /* PBXTargetDependency */,
+			);
+			name = GMPickerUITests;
+			productName = GMPickerUITests;
+			productReference = BA491ED71D5203C600206BC5 /* GMPickerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BA491EB01D5203C600206BC5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = GabeMajorszki;
+				TargetAttributes = {
+					BA491EB71D5203C600206BC5 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					BA491ECB1D5203C600206BC5 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = BA491EB71D5203C600206BC5;
+					};
+					BA491ED61D5203C600206BC5 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = BA491EB71D5203C600206BC5;
+					};
+				};
+			};
+			buildConfigurationList = BA491EB31D5203C600206BC5 /* Build configuration list for PBXProject "GMPicker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BA491EAF1D5203C600206BC5;
+			productRefGroup = BA491EB91D5203C600206BC5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BA491EB71D5203C600206BC5 /* GMPicker */,
+				BA491ECB1D5203C600206BC5 /* GMPickerTests */,
+				BA491ED61D5203C600206BC5 /* GMPickerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BA491EB61D5203C600206BC5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA491EC61D5203C600206BC5 /* LaunchScreen.storyboard in Resources */,
+				BA491EC31D5203C600206BC5 /* Assets.xcassets in Resources */,
+				BA491EC11D5203C600206BC5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA491ECA1D5203C600206BC5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA491ED51D5203C600206BC5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BA491EB41D5203C600206BC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA491EBE1D5203C600206BC5 /* ViewController.swift in Sources */,
+				BA491EBC1D5203C600206BC5 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA491EC81D5203C600206BC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA491ED11D5203C600206BC5 /* GMPickerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA491ED31D5203C600206BC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA491EDC1D5203C600206BC5 /* GMPickerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BA491ECE1D5203C600206BC5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BA491EB71D5203C600206BC5 /* GMPicker */;
+			targetProxy = BA491ECD1D5203C600206BC5 /* PBXContainerItemProxy */;
+		};
+		BA491ED91D5203C600206BC5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BA491EB71D5203C600206BC5 /* GMPicker */;
+			targetProxy = BA491ED81D5203C600206BC5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BA491EBF1D5203C600206BC5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA491EC01D5203C600206BC5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BA491EC41D5203C600206BC5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA491EC51D5203C600206BC5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BA491EDE1D5203C600206BC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BA491EDF1D5203C600206BC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BA491EE11D5203C600206BC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GMPicker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = GabeMajorszki.GMPicker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BA491EE21D5203C600206BC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GMPicker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = GabeMajorszki.GMPicker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BA491EE41D5203C600206BC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GMPickerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = GabeMajorszki.GMPickerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GMPicker.app/GMPicker";
+			};
+			name = Debug;
+		};
+		BA491EE51D5203C600206BC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GMPickerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = GabeMajorszki.GMPickerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GMPicker.app/GMPicker";
+			};
+			name = Release;
+		};
+		BA491EE71D5203C600206BC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GMPickerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = GabeMajorszki.GMPickerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GMPicker;
+			};
+			name = Debug;
+		};
+		BA491EE81D5203C600206BC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GMPickerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = GabeMajorszki.GMPickerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GMPicker;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BA491EB31D5203C600206BC5 /* Build configuration list for PBXProject "GMPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA491EDE1D5203C600206BC5 /* Debug */,
+				BA491EDF1D5203C600206BC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA491EE01D5203C600206BC5 /* Build configuration list for PBXNativeTarget "GMPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA491EE11D5203C600206BC5 /* Debug */,
+				BA491EE21D5203C600206BC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BA491EE31D5203C600206BC5 /* Build configuration list for PBXNativeTarget "GMPickerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA491EE41D5203C600206BC5 /* Debug */,
+				BA491EE51D5203C600206BC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BA491EE61D5203C600206BC5 /* Build configuration list for PBXNativeTarget "GMPickerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA491EE71D5203C600206BC5 /* Debug */,
+				BA491EE81D5203C600206BC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BA491EB01D5203C600206BC5 /* Project object */;
+}
