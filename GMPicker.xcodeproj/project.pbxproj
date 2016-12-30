@@ -196,13 +196,19 @@
 				TargetAttributes = {
 					BA491EB71D5203C600206BC5 = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = EDP2LF73J4;
+						LastSwiftMigration = 0810;
 					};
 					BA491ECB1D5203C600206BC5 = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = EDP2LF73J4;
+						LastSwiftMigration = 0810;
 						TestTargetID = BA491EB71D5203C600206BC5;
 					};
 					BA491ED61D5203C600206BC5 = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = EDP2LF73J4;
+						LastSwiftMigration = 0810;
 						TestTargetID = BA491EB71D5203C600206BC5;
 					};
 				};
@@ -397,10 +403,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = EDP2LF73J4;
 				INFOPLIST_FILE = GMPicker/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = GabeMajorszki.GMPicker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -408,10 +416,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = EDP2LF73J4;
 				INFOPLIST_FILE = GMPicker/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = GabeMajorszki.GMPicker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -419,10 +429,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = EDP2LF73J4;
 				INFOPLIST_FILE = GMPickerTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = GabeMajorszki.GMPickerTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GMPicker.app/GMPicker";
 			};
 			name = Debug;
@@ -431,10 +443,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = EDP2LF73J4;
 				INFOPLIST_FILE = GMPickerTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = GabeMajorszki.GMPickerTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GMPicker.app/GMPicker";
 			};
 			name = Release;
@@ -442,10 +456,12 @@
 		BA491EE71D5203C600206BC5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				DEVELOPMENT_TEAM = EDP2LF73J4;
 				INFOPLIST_FILE = GMPickerUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = GabeMajorszki.GMPickerUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = GMPicker;
 			};
 			name = Debug;
@@ -453,10 +469,12 @@
 		BA491EE81D5203C600206BC5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				DEVELOPMENT_TEAM = EDP2LF73J4;
 				INFOPLIST_FILE = GMPickerUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = GabeMajorszki.GMPickerUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = GMPicker;
 			};
 			name = Release;
@@ -480,6 +498,7 @@
 				BA491EE21D5203C600206BC5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BA491EE31D5203C600206BC5 /* Build configuration list for PBXNativeTarget "GMPickerTests" */ = {
 			isa = XCConfigurationList;
@@ -488,6 +507,7 @@
 				BA491EE51D5203C600206BC5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BA491EE61D5203C600206BC5 /* Build configuration list for PBXNativeTarget "GMPickerUITests" */ = {
 			isa = XCConfigurationList;
@@ -496,6 +516,7 @@
 				BA491EE81D5203C600206BC5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

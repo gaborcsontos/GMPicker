@@ -10,19 +10,19 @@ import UIKit
 
 extension ViewController: GMDatePickerDelegate {
     
-    func gmDatePicker(gmDatePicker: GMDatePicker, didSelect date: NSDate){
+    func gmDatePicker(_ gmDatePicker: GMDatePicker, didSelect date: Date){
         print(date)
-        dateOfBirth.text = dateFormatter.stringFromDate(date)
+        dateOfBirth.text = dateFormatter.string(from: date)
     }
-    func gmDatePickerDidCancelSelection(gmDatePicker: GMDatePicker) {
+    func gmDatePickerDidCancelSelection(_ gmDatePicker: GMDatePicker) {
         
     }
     
-    private func setupDatePicker() {
+    fileprivate func setupDatePicker() {
         
         datePicker.delegate = self
         
-        datePicker.config.startDate = NSDate()
+        datePicker.config.startDate = Date()
         
         datePicker.config.animationDuration = 0.5
         
@@ -31,25 +31,25 @@ extension ViewController: GMDatePickerDelegate {
         
         datePicker.config.contentBackgroundColor = UIColor(red: 253/255.0, green: 253/255.0, blue: 253/255.0, alpha: 1)
         datePicker.config.headerBackgroundColor = UIColor(red: 244/255.0, green: 244/255.0, blue: 244/255.0, alpha: 1)
-        datePicker.config.confirmButtonColor = UIColor.blackColor()
-        datePicker.config.cancelButtonColor = UIColor.blackColor()
+        datePicker.config.confirmButtonColor = UIColor.black
+        datePicker.config.cancelButtonColor = UIColor.black
         
     }
 }
 
 extension ViewController: GMPickerDelegate {
     
-    func gmPicker(gmPicker: GMPicker, didSelect string: String) {
+    func gmPicker(_ gmPicker: GMPicker, didSelect string: String) {
         
         if !isYearPicked{userGender.text = string} else { year.text = string }
         
     }
     
-    func gmPickerDidCancelSelection(gmPicker: GMPicker){
+    func gmPickerDidCancelSelection(_ gmPicker: GMPicker){
         
     }
     
-    private func setupPickerView(){
+    fileprivate func setupPickerView(){
         
         picker.delegate = self
         picker.config.animationDuration = 0.5
@@ -59,8 +59,8 @@ extension ViewController: GMPickerDelegate {
         
         picker.config.contentBackgroundColor = UIColor(red: 253/255.0, green: 253/255.0, blue: 253/255.0, alpha: 1)
         picker.config.headerBackgroundColor = UIColor(red: 244/255.0, green: 244/255.0, blue: 244/255.0, alpha: 1)
-        picker.config.confirmButtonColor = UIColor.blackColor()
-        picker.config.cancelButtonColor = UIColor.blackColor()
+        picker.config.confirmButtonColor = UIColor.black
+        picker.config.cancelButtonColor = UIColor.black
         
     }
     
@@ -71,10 +71,10 @@ class ViewController: UIViewController {
     
     let textLabel: UILabel = {
         let label = UILabel()
-        label.font = UIFont.systemFontOfSize(20)
+        label.font = UIFont.systemFont(ofSize: 20)
         label.text = "WELCOME TO GMPICKER"
-        label.textColor = UIColor.blackColor()
-        label.textAlignment = .Center
+        label.textColor = UIColor.black
+        label.textAlignment = .center
         return label
     }()
     
@@ -82,48 +82,48 @@ class ViewController: UIViewController {
     let userGender: UITextView = {
         let gender = UITextView()
         gender.layer.cornerRadius = 6
-        gender.layer.borderColor = UIColor.blackColor().CGColor
+        gender.layer.borderColor = UIColor.black.cgColor
         gender.layer.borderWidth = 0.5
         gender.clipsToBounds = true
-        gender.textAlignment = .Center
-        gender.font = UIFont.systemFontOfSize(12)
-        gender.textColor = UIColor.blackColor()
+        gender.textAlignment = .center
+        gender.font = UIFont.systemFont(ofSize: 12)
+        gender.textColor = UIColor.black
         gender.text = "User Gender"
-        gender.userInteractionEnabled = true
-        gender.scrollEnabled = false
-        gender.editable = false
+        gender.isUserInteractionEnabled = true
+        gender.isScrollEnabled = false
+        gender.isEditable = false
         return gender
     }()
     
     let year: UITextView = {
         let year = UITextView()
         year.layer.cornerRadius = 6
-        year.layer.borderColor = UIColor.blackColor().CGColor
+        year.layer.borderColor = UIColor.black.cgColor
         year.layer.borderWidth = 0.5
         year.clipsToBounds = true
-        year.textAlignment = .Center
-        year.font = UIFont.systemFontOfSize(12)
-        year.textColor = UIColor.blackColor()
+        year.textAlignment = .center
+        year.font = UIFont.systemFont(ofSize: 12)
+        year.textColor = UIColor.black
         year.text = "Annus Mirabilis"
-        year.userInteractionEnabled = true
-        year.scrollEnabled = false
-        year.editable = false
+        year.isUserInteractionEnabled = true
+        year.isScrollEnabled = false
+        year.isEditable = false
         return year
     }()
     
     let dateOfBirth: UITextView = {
         let dob = UITextView()
         dob.layer.cornerRadius = 6
-        dob.layer.borderColor = UIColor.blackColor().CGColor
+        dob.layer.borderColor = UIColor.black.cgColor
         dob.layer.borderWidth = 0.5
         dob.clipsToBounds = true
-        dob.textAlignment = .Center
-        dob.font = UIFont.systemFontOfSize(12)
-        dob.textColor = UIColor.blackColor()
+        dob.textAlignment = .center
+        dob.font = UIFont.systemFont(ofSize: 12)
+        dob.textColor = UIColor.black
         dob.text = "Date of birth"
-        dob.userInteractionEnabled = true
-        dob.scrollEnabled = false
-        dob.editable = false
+        dob.isUserInteractionEnabled = true
+        dob.isScrollEnabled = false
+        dob.isEditable = false
         return dob
     }()
     
@@ -131,7 +131,7 @@ class ViewController: UIViewController {
     var isYearPicked = false
     
     var datePicker = GMDatePicker()
-    var dateFormatter = NSDateFormatter()
+    var dateFormatter = DateFormatter()
 
     func chooseGender(){
         isYearPicked = false
@@ -152,21 +152,21 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        view.backgroundColor = UIColor.whiteColor()
+        view.backgroundColor = UIColor.white
         
         view.addSubview(textLabel)
-        textLabel.frame = CGRectMake(24, 160, self.view.frame.width - 24 - 24, 60)
+        textLabel.frame = CGRect(x: 24, y: 160, width: self.view.frame.width - 24 - 24, height: 60)
         
         view.addSubview(userGender)
-        userGender.frame = CGRectMake(24, 250, self.view.frame.width - 24 - 24, 30)
+        userGender.frame = CGRect(x: 24, y: 250, width: self.view.frame.width - 24 - 24, height: 30)
         userGender.addGestureRecognizer(UITapGestureRecognizer(target: self, action: #selector(chooseGender)))
         
         view.addSubview(year)
-        year.frame = CGRectMake(24, 250 + 30 + 10, self.view.frame.width - 24 - 24, 30)
+        year.frame = CGRect(x: 24, y: 250 + 30 + 10, width: self.view.frame.width - 24 - 24, height: 30)
         year.addGestureRecognizer(UITapGestureRecognizer(target: self, action: #selector(chooseYear)))
         
         view.addSubview(dateOfBirth)
-        dateOfBirth.frame = CGRectMake(24, 250 + 30 + 10 + 30 + 10, self.view.frame.width - 24 - 24, 30)
+        dateOfBirth.frame = CGRect(x: 24, y: 250 + 30 + 10 + 30 + 10, width: self.view.frame.width - 24 - 24, height: 30)
         dateOfBirth.addGestureRecognizer(UITapGestureRecognizer(target: self, action: #selector(chooseDOB)))
         
         setupPickerView()
